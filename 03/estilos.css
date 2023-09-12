@@ -1,0 +1,80 @@
+.header {
+    background-color: LightBlue;
+    border: 1px solid SteelBlue;
+    padding: 1rem;
+    margin: 0 0 0.5rem 0;
+    text-transform: uppercase;
+    display: flex;
+  }
+  .titulo {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+  }
+  .nav {
+    display: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .main {
+    background-color: HoneyDew;
+    border: 1px solid MediumAquamarine;
+    padding: 1rem;
+    margin: 0 0 0.5rem 0;
+    text-transform: uppercase;
+  }
+  .list {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0px;
+  }
+  .item {
+    padding: 0px;
+    margin: 0 0 0.8% 0;
+    background-color: LightGoldenrodYellow;
+    border: 1px solid DarkKhaki;
+    height: 200px;
+    flex: 0 1 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .circulo { 
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+  }
+  
+  .footer {
+    background-color: LemonChiffon;
+    border: 1px solid PeachPuff;
+    padding: 1rem;
+    margin: 0 0 0.5rem 0;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (min-width: 640px) and (max-width: 1024px) {
+    .item {
+      flex: 0 1 32%;
+      margin: 0 0 0.75% 0;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .item {
+      flex: 0 1 24%;
+      margin: 0 0 0.8% 0;
+    }
+  }
+  
