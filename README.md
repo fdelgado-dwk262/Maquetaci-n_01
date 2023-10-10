@@ -11,6 +11,7 @@ Partiendo de una estructura básica de HTML vamos a ir modificandola para obtene
 * Estructura básica html - 01
 * Ejemplo de contendores - 02
 * Ejemplo de conponentes - 03
+* Ejemplo de card        - 04
 
 Ejemplo sobre Vscode, pero se puede montar sobre cualquier editor.
 
