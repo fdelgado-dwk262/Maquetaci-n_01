@@ -18,8 +18,7 @@ Ejemplo sobre Vscode, pero se puede montar sobre cualquier editor.
 
 Crearemos un ficheo index.html 
 
-En el cual ( desde vscode ) teclearemos 
-
+En el cual ( desde vscode ) teclearemos y pulsaremos intro
 
 ```html
 html:5
