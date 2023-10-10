@@ -1,5 +1,10 @@
-* {}
-body {}
+
+/* * { color: red;} */
+body {
+/*  reset del body*/
+margin: 0;
+padding: 0;
+}
 
 #idUnico{}
 
@@ -17,7 +22,7 @@ body {}
     padding: 0;
   }
   .nav {
-    display: none;
+    /* display: none; */
     margin: 0px;
     padding: 0px;
   }
