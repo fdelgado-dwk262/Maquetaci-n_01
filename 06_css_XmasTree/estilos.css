@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
 :root {
   --shadow-color: 94deg 100% 14%;
   --shadow: 0.3px 0.4px 0.6px hsl(var(--shadow-color) / 0.34),
@@ -188,9 +191,9 @@ body {
 }
 
 .floor {
-  height: 3rem;
+  height: 100vh;
   width: 100%;
-  background-color: olivedrab;
+  background-color: #0c362d;
 }
 
 .ball-1 {
@@ -224,4 +227,21 @@ body {
 .ball-8 {
   left: 244px;
   top: 173px;
+}
+
+.text {
+  text-align: center;
+  font-family: 'Sansita Swashed';
+  font-size:3rem;
+  color:white;
+  animation-name:glow;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  opacity: 0.9;
+}
+
+@keyframes glow{
+  from{text-shadow:0px 0px 5px #fff,0px 0px 5px #614ad3;}
+  to{text-shadow:0px 0px 20px #fff,0px 0px 20px #614ad3;}
 }
