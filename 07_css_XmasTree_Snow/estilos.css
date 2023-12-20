@@ -71,12 +71,26 @@ html, body {
   position: relative;
 }
 
+.logo {
+  position: absolute;
+  width: 170px;
+  height: 60px;
+  background-color: transparent;
+  top: 0;
+  margin: 2rem;
+}
+
+.logo svg {
+  fill: var(--color-white, #fff);
+}
+
 /* ************************************************** */
 /* star */
 /* ************************************************** */
 
 .xmasStar {
   /* Orden alfabético de las propiedades */
+  animation: rotate 3s linear infinite;
   border-bottom: 70px solid var(--color-start, gold);
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
@@ -87,6 +101,7 @@ html, body {
   position: relative;
   transform: rotate(35deg);
   width: 0px;
+  z-index: 10;
 }
 
 .xmasStar:before {
@@ -237,6 +252,7 @@ html, body {
 .ball-1 {
   left: 250px;
   top: 80px;
+  /* clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); */
 }
 .ball-2 {
   left: 150px;
@@ -290,10 +306,23 @@ html, body {
   animation-direction:alternate;
   opacity: 0.9;
 }
+.text::before {
+  content: "\01F525";
+}
+.text::after {
+  content: "\01F525";
+}
+
 
 @keyframes glow{
   from{text-shadow:0px 0px 5px #fff,0px 0px 5px var(--color-shadow-text,#614ad3);}
   to{text-shadow:0px 0px 20px #fff,0px 0px 20px var(--color-shadow-text,#614ad3);}
+}
+
+@keyframes rotate { 
+  0%{ transform: rotate(0deg) scale(1)}
+  50% { transform:rotate(180deg) scale(1.5); } 
+  100% { transform: rotate(360deg) scale(1)}
 }
 
 /* plus .- Snow */
