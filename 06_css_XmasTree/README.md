@@ -455,6 +455,8 @@ Por otro lado es conveniente usalr un valor por defecto si un navegador no inter
 * [orden-de-las-propiedades-css](https://raohmaru.com/blog/css/el-orden-de-las-propiedades-css/)
 * [sassmeister](https://www.sassmeister.com/)
 * [makeareadme](https://www.makeareadme.com/)
+* [specificity](https://specificity.keegan.st/)
+* [CSS selectores y propiedades ( a-z ) ](https://css-tricks.com/almanac/)
 
 ##
 No necesitamos instalacion ni servidor alguno para este ejemplo
