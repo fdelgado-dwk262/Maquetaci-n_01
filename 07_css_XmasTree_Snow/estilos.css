@@ -306,11 +306,12 @@ html, body {
   animation-direction:alternate;
   opacity: 0.9;
 }
+
 .text::before {
-  content: "\01F525";
+  content: "🎄";
 }
 .text::after {
-  content: "\01F525";
+  content: "🎄";
 }
 
 

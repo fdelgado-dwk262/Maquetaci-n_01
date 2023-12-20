@@ -14,7 +14,7 @@ Partiendo de una estructura básica de HTML vamos a ir modificandola para obtene
 * Ejemplo de card        - 04
 * Ejemplo de Navegación  - 05
 * CSS Xmas Tree          - 06
-* WIP                    - 07
+* CSS Xmas Tree Snow     - 07
 
 Ejemplo sobre Vscode, pero se puede montar sobre cualquier editor.
 
@@ -55,7 +55,9 @@ No obstante desde cualquier editor, podemos usar :
 
 ## Navegación Responsive 05
 
-## CSS Xmas Tree 06 -  formas
+## CSS Xmas Tree 06
+
+## CSS Xmas Tree Snow 07
 
 
 
