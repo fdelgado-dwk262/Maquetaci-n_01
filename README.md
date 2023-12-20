@@ -12,10 +12,13 @@ Partiendo de una estructura básica de HTML vamos a ir modificandola para obtene
 * Ejemplo de contendores - 02
 * Ejemplo de conponentes - 03
 * Ejemplo de card        - 04
+* Ejemplo de Navegación  - 05
+* CSS Xmas Tree          - 06
+* WIP                    - 07
 
 Ejemplo sobre Vscode, pero se puede montar sobre cualquier editor.
 
-## Estructura básica de HTML
+## Estructura básica de HTML 01 
 
 Crearemos un ficheo index.html 
 
@@ -42,6 +45,18 @@ No obstante desde cualquier editor, podemos usar :
 </body>
 </html>
 ```
+
+
+## Contendores 02
+
+## conponentes 03
+
+## Componente Card 04
+
+## Navegación Responsive 05
+
+## CSS Xmas Tree 06
+
 
 
 ###
