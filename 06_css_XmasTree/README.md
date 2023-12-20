@@ -1,7 +1,7 @@
 # Maquetacion_06
-# Ejercicios Maquetación
+## Ejercicios Maquetación
 
-# Axpe Consulting - Front
+### Axpe Consulting - Front
  Ejercicios HTML / CSS
  
 ## Introducción
@@ -68,7 +68,7 @@ la parte princila el arbol y el tronco, dentro de la parte del arbol, tendremos 
         </div>
 ```
 
-En el apartado del CSS 
+## En el apartado del CSS 
 
 Dejo el css sacado directamente desde SASSMEINSTER y su versión SCSS
 y poosterior mente mnodificado para ver diferentes temas.
@@ -295,9 +295,7 @@ body {
   top: 173px;
 }
 ```
-
-
-SCSS
+## SCSS
 
 ```scss
 :root {
@@ -407,8 +405,7 @@ body {
 
 ```
 
-
-## pseudeselector
+## Pseudeselector
 Un pseudeselector es una instrucción que acompaña un selector para añadir un aspecto decorativo a un elemento.
 En esta entrada trataremos ::before y ::after.
 
@@ -424,14 +421,40 @@ En función de lo que quieras hacer deberás combinarlo con display:block; o dis
 
 Vemos un ejemplo en este mismo ejemplo en la estrella que corona nuestro arbol.
 
+## Constantes
+Llamadas variables dentro del CSS, son nativas y se definen al principio de nuestra hoja de estilos y se usa de la siguiente forma.
 
+Nota .- se puede definir una variable dentro de una clase, si se puede pero se usará dentro de esta clase, esto recuerda a JS, este falor no tomara el de ámbito global sino su valor local.
 
-Url's de referencia .- 
-https://css-tricks.com/the-shapes-of-css/
-https://cybmeta.com/formas-basicas-con-css-triangulos-circulos-trapecios-rectangulos-cuadrados
-https://www.sessionstudio.com.ar/blog/2011/02/22/formas-en-css3-estrella/
-https://raohmaru.com/blog/css/el-orden-de-las-propiedades-css/
-https://www.sassmeister.com/
+Por otro lado es conveniente usalr un valor por defecto si un navegador no interpretase el valor de la constante.
 
-###
+```css
+:root {
+   --definicion-de-variable: valor;
+   
+   --color-bg: #f3f3f3;
+}
+.clase {
+   color: var(--color-bg, #f3f3f3);
+}
+
+.clase-sobreescrita {
+   --color-bg: red;
+   color: var(--color-bg, #f3f3f3);
+}
+
+```
+
+##
+##
+
+## Url's de referencia .- 
+* [the-shapes-of-css](https://css-tricks.com/the-shapes-of-css/)
+* [formas-basicas-con-css](https://cybmeta.com/formas-basicas-con-css-triangulos-circulos-trapecios-rectangulos-cuadrados)
+* [css3-estrella](https://www.sessionstudio.com.ar/blog/2011/02/22/formas-en-css3-estrella/)
+* [orden-de-las-propiedades-css](https://raohmaru.com/blog/css/el-orden-de-las-propiedades-css/)
+* [sassmeister](https://www.sassmeister.com/)
+* [makeareadme](https://www.makeareadme.com/)
+
+##
 No necesitamos instalacion ni servidor alguno para este ejemplo

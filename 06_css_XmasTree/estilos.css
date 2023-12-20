@@ -273,6 +273,8 @@ body {
   text-align: center;
   font-family: 'Sansita Swashed';
   font-size:3rem;
+  /* prueba de sobreescritura de constante global VS local de clase */
+  /* --color-white: red; */
   color:var(--color-white, white);
   animation-name:glow;
   animation-duration:1s;
