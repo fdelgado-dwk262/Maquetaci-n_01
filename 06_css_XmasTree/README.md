@@ -70,7 +70,8 @@ la parte princila el arbol y el tronco, dentro de la parte del arbol, tendremos 
 
 En el apartado del CSS 
 
-Dejo el css y su versión SCSS
+Dejo el css sacado directamente desde SASSMEINSTER y su versión SCSS
+y poosterior mente mnodificado para ver diferentes temas.
 
 ```css
 :root {
@@ -406,6 +407,31 @@ body {
 
 ```
 
+
+## pseudeselector
+Un pseudeselector es una instrucción que acompaña un selector para añadir un aspecto decorativo a un elemento.
+En esta entrada trataremos ::before y ::after.
+
+Un pseudoselector no es exactamente que una pseudoclase. Mientras que el pseudoselector atiende al aspecto estético, la pseudoclase atiende al estado del elemento. Un ejemplo de pseudoclase es :hover.
+Actualmente el W3C insiste en que pongamos 2 veces 2 puntos para diferenciar los pseudoselectores de las pseudoclases.
+::before y ::after se suelen usar con la instrucción content. También pueden ir acompañadas de otras instrucciones como margin o padding.
+
+Es importante que tengas en cuenta que el elemento añadido será un elemento en línea.
+
+Recuerda que los elementos en línea no tienen width, height, ni margin-top ni margin-bottom.
+
+En función de lo que quieras hacer deberás combinarlo con display:block; o display:inline-block.
+
+Vemos un ejemplo en este mismo ejemplo en la estrella que corona nuestro arbol.
+
+
+
+Url's de referencia .- 
+https://css-tricks.com/the-shapes-of-css/
+https://cybmeta.com/formas-basicas-con-css-triangulos-circulos-trapecios-rectangulos-cuadrados
+https://www.sessionstudio.com.ar/blog/2011/02/22/formas-en-css3-estrella/
+https://raohmaru.com/blog/css/el-orden-de-las-propiedades-css/
+https://www.sassmeister.com/
 
 ###
 No necesitamos instalacion ni servidor alguno para este ejemplo
