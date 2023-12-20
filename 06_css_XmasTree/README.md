@@ -405,7 +405,7 @@ body {
 
 ```
 
-## Pseudeselector
+## Pseudeselector ::before y ::after
 Un pseudeselector es una instrucción que acompaña un selector para añadir un aspecto decorativo a un elemento.
 En esta entrada trataremos ::before y ::after.
 
